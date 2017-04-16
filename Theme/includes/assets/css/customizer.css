@@ -1,0 +1,286 @@
+/**
+ * CSS: Customizer
+ */
+
+*:focus {
+	box-shadow: none;
+}
+
+.wp-full-overlay-sidebar {
+	background: #fcfefe;
+	border-right: 1px solid #dce3e7;
+}
+
+#customize-controls .customize-info {
+	margin-bottom: 0;
+	border-top-color: #dce3e7;
+}
+
+#customize-controls .customize-info .accordion-section-title,
+#customize-controls .panel-meta.customize-info .accordion-section-title:hover {
+	background: #f3f6f8;
+	border-top-color: #dce3e7;
+}
+
+#customize-header-actions {
+	border-bottom-color: #dce3e7;
+	background: #fff;
+}
+
+.customize-controls-close {
+	background: transparent;
+}
+
+#customize-theme-controls .accordion-section-title {
+	color: #2a3138;
+	background-color: #fff;
+	border-bottom: 1px solid #e9eff2;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.control-subsection .accordion-section-title {
+	text-transform: none !important;
+}
+
+.customize-controls-close:focus, .customize-controls-close:hover, .customize-controls-preview-toggle:focus, .customize-controls-preview-toggle:hover {
+	background: transparent;
+}
+
+#customize-controls .control-section .accordion-section-title:focus, #customize-controls .control-section .accordion-section-title:hover, #customize-controls .control-section.open .accordion-section-title, #customize-controls .control-section:hover > .accordion-section-title {
+	color: #47cab5;
+	background: #fff;
+	border-left-color: #47cab5;
+}
+
+#customize-theme-controls .control-section .accordion-section-title:focus:after, #customize-theme-controls .control-section .accordion-section-title:hover:after, #customize-theme-controls .control-section.open .accordion-section-title:after, #customize-theme-controls .control-section:hover > .accordion-section-title:after {
+	color: #47cab5;
+}
+
+.customize-panel-back:focus, .customize-panel-back:hover, .customize-section-back:focus, .customize-section-back:hover {
+	color: #2a3138;
+	background: #fff;
+	border-left-color: #47cab5;
+}
+
+.wp-core-ui .button-primary,
+.wp-core-ui .button-primary-disabled,
+.wp-core-ui .button-primary.disabled,
+.wp-core-ui .button-primary:disabled,
+.wp-core-ui .button-primary[disabled] {
+	background: #47cab5 !important;
+	border: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	color: #fff !important;
+	text-decoration: none;
+	text-shadow: none;
+}
+
+.wp-core-ui .button, .wp-core-ui .button-secondary {
+	color: #2a3138;
+	border: 1px solid #dee2e4;
+	background: #f3f6f8;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.wp-core-ui .button-secondary:focus, .wp-core-ui .button-secondary:hover, .wp-core-ui .button.focus, .wp-core-ui .button.hover, .wp-core-ui .button:focus, .wp-core-ui .button:hover {
+	background: #f3f6f8;
+}
+
+.wp-core-ui .wp-full-overlay .collapse-sidebar:focus,
+.wp-core-ui .wp-full-overlay .collapse-sidebar:hover,
+#customize-controls .customize-info .customize-help-toggle:focus, #customize-controls .customize-info .customize-help-toggle:hover, #customize-controls .customize-info.open .customize-help-toggle {
+	color: #47CAB5;
+}
+
+.customize-control input[type=tel], .customize-control input[type=url], .customize-control input[type=text], .customize-control input[type=password], .customize-control input[type=email], .customize-control input[type=number], .customize-control input[type=search],
+.customize-control textarea {
+	border: 2px solid #dee3e2;
+	border-radius: 4px;
+	box-shadow: none;
+	padding: 6px 12px;
+}
+
+li#customize-control-alba_featured_count .description {
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.customize-control input[type=number] {
+	padding-right: 4px;
+	width: 60px !important;
+	float: left;
+}
+
+.customize-control textarea {
+	padding: 12px;
+}
+
+#customize-theme-controls .control-section:last-of-type.open, #customize-theme-controls .control-section:last-of-type > .accordion-section-title {
+	border-bottom-color: #e9eff2;
+}
+
+.customize-control input[type=text]:focus,
+.customize-control input[type=search]:focus,
+.customize-control input[type=radio]:focus,
+.customize-control input[type=tel]:focus,
+.customize-control input[type=time]:focus,
+.customize-control input[type=url]:focus,
+.customize-control input[type=week]:focus,
+.customize-control input[type=password]:focus,
+.customize-control input[type=color]:focus,
+.customize-control input[type=date]:focus,
+.customize-control input[type=datetime]:focus,
+.customize-control input[type=datetime-local]:focus,
+.customize-control input[type=email]:focus,
+.customize-control input[type=month]:focus,
+.customize-control input[type=number]:focus,
+.customize-control select:focus {
+	border-color: #dee3e2;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.customize-control input[type=checkbox]:focus {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+#accordion-section-cei-section:after,
+#accordion-section-cei-detect-section:after {
+	content: "";
+	background: url(../images/wpvita-logo.png) no-repeat;
+	position: absolute;
+	bottom: -50px;
+	width: 28px;
+	height: 27px;
+	display: block;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	padding-bottom: 10px;
+}
+
+/* Hides the radio button */
+.customize-control-radio-image input[type="radio"] {
+	visibility: hidden;
+	position: absolute;
+}
+
+#customize-controls .description {
+	color: #7b8898;
+	font-style: normal;
+}
+
+#customize-controls input[type="checkbox"] {
+	width: 18px;
+	height: 18px;
+	cursor: pointer;
+	position: relative;
+	border-radius: 4px;
+	box-shadow: none;
+	border: 2px solid #dee2e4;
+}
+
+#customize-controls input[type=checkbox]:checked:before {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	border-top: none;
+	border-right: none;
+	background: transparent;
+	color: #47cab5;
+}
+
+#customize-controls input[type=radio]:checked:before {
+	background: #47CAB5;
+	border-color: #dee2e4;
+}
+
+#customize-controls .control-section .customize-section-title h3, #customize-controls .control-section h3.customize-section-title, #customize-controls .customize-info .panel-title {
+	background: #f3f6f8;
+}
+
+/* Makes images look clickable */
+.customize-control-radio-image img {
+	box-sizing: border-box;
+	cursor: pointer;
+	height: auto;
+	max-width: 100%;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+}
+
+/* Adds blue border around currently selected image */
+.customize-control-radio-image input:checked + img {
+	border-color: #00a0d2;
+}
+
+input.button.button-small.wp-picker-default {
+	height: 32px;
+	border: 1px solid #dee2e4;
+}
+
+.wp-color-result {
+	background-color: #f3f6f8;
+	border: 1px solid #dee2e4;
+	height: 30px;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.wp-color-result:after {
+	background: #f3f6f8;
+	line-height: 30px;
+}
+
+
+#customize-control-alba_ad_single_below_title_count .customize-control-title,
+#customize-control-alba_ad_single_below_related_count .customize-control-title {
+	float: left;
+	font-weight: normal;
+}
+
+#customize-control-alba_ad_single_below_title_count input,
+#customize-control-alba_ad_single_below_related_count input {
+	float: right;
+}
+
+#customize-control-alba_blog_archive_meta_author_hide,
+#customize-control-alba_blog_archive_meta_cat_hide,
+#customize-control-alba_blog_single_meta_author_hide,
+#customize-control-alba_blog_single_meta_cat_hide {
+	margin-bottom: 0;
+}
+
+#customize-control-alba_logo .attachment-thumb,
+#customize-control-alba_retina_logo .attachment-thumb {
+	max-width: 72px;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+	padding: 15px 0;
+}
+
+#customize-control-custom_logo .customize-control-description,
+#customize-control-alba_retina_logo .customize-control-description {
+	margin-bottom: 10px;
+}
+
+#customize-theme-controls .control-panel-content .control-section:nth-child(2), 
+#customize-theme-controls .control-panel-nav_menus .control-section:nth-child(3) {
+	border-top: none;
+}
+
+.customize-partial-edit-shortcut, 
+.widget .customize-partial-edit-shortcut {
+    z-index: 99999;
+}
+
+.customize-controls-close:focus, .customize-controls-close:hover, .customize-controls-preview-toggle:focus, .customize-controls-preview-toggle:hover {
+    background: #fff;
+    color: #47cab5;
+    border-top-color: #47cab5;
+}

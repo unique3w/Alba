@@ -1,0 +1,11 @@
+== Alba Changelog ==
+
+= 1.1 - 6 January, 2017 =
+* Added support for WordPress 4.7
+* Added Featured Video for header
+* Added custom CSS in Customizer
+* Fixed background position issue in Customizer
+* Fixed menu toggle bug
+
+= 1.0 - 17 November, 2016 =
+* Initial release

@@ -1,0 +1,428 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Alba\n"
+"POT-Creation-Date: 2016-11-21 22:00+0300\n"
+"PO-Revision-Date: 2016-11-21 22:01+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:10
+msgid "Error 404 Page Not Found"
+msgstr ""
+
+#: 404.php:12
+msgid ""
+"Sorry We couldnt find this Page. You may want to check the URL or use the "
+"search form below."
+msgstr ""
+
+#: archive.php:14
+msgid "Category:"
+msgstr ""
+
+#: archive.php:17
+msgid "Tag:"
+msgstr ""
+
+#: archive.php:20
+msgid "Daily Archives:"
+msgstr ""
+
+#: archive.php:23
+msgid "Monthly Archives:"
+msgstr ""
+
+#: archive.php:26
+msgid "Yearly Archives:"
+msgstr ""
+
+#: archive.php:29
+msgid "Author Archives"
+msgstr ""
+
+#: archive.php:32
+msgid "Archives"
+msgstr ""
+
+#: comments.php:8
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: comments.php:25
+#, php-format
+msgid "One Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:34 comments.php:46
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:35 comments.php:47
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:36 comments.php:48
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:58
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:12
+#, php-format
+msgid "&copy; %2$s %1$s"
+msgstr ""
+
+#: footer.php:15
+#, php-format
+msgid "%2$s by <a href=\"%1$s\">%3$s</a>"
+msgstr ""
+
+#: footer.php:15
+msgid "http://wpvita.com"
+msgstr ""
+
+#: functions.php:88 functions.php:98
+msgid "Main Menu"
+msgstr ""
+
+#: functions.php:115
+msgid "Footer Left"
+msgstr ""
+
+#: functions.php:117
+msgid "Footer Left Widgets"
+msgstr ""
+
+#: functions.php:126
+msgid "Footer Center"
+msgstr ""
+
+#: functions.php:128
+msgid "Footer Center Widgets"
+msgstr ""
+
+#: functions.php:137
+msgid "Footer Right"
+msgstr ""
+
+#: functions.php:139
+msgid "Footer Right Widgets"
+msgstr ""
+
+#: functions.php:211
+#, php-format
+msgctxt "%s = human-readable time difference"
+msgid "%s ago"
+msgstr ""
+
+#: functions.php:225
+msgid " "
+msgstr ""
+
+#: functions.php:227
+#, php-format
+msgid "Tags: %1$s"
+msgstr ""
+
+#: includes/customizer.php:44
+msgid "General"
+msgstr ""
+
+#: includes/customizer.php:66
+msgid "Hide Footer Credits"
+msgstr ""
+
+#: includes/customizer.php:77
+msgid "Branding"
+msgstr ""
+
+#: includes/customizer.php:102
+msgid "Logo"
+msgstr ""
+
+#: includes/customizer.php:129
+msgid "Retina Logo"
+msgstr ""
+
+#: includes/customizer.php:132
+msgid "Upload your retina logo, 2x the size. Using the option button below."
+msgstr ""
+
+#: includes/customizer.php:143
+msgid "Header"
+msgstr ""
+
+#: includes/customizer.php:166
+msgid "Enable Author Profile"
+msgstr ""
+
+#: includes/customizer.php:191
+msgid "Author Image"
+msgstr ""
+
+#: includes/customizer.php:194
+msgid "Recommended size: 100 x 100px "
+msgstr ""
+
+#: includes/customizer.php:215
+msgid "Author Title"
+msgstr ""
+
+#: includes/customizer.php:216
+msgid "Author title or name"
+msgstr ""
+
+#: includes/customizer.php:238
+msgid "Author Description"
+msgstr ""
+
+#: includes/customizer.php:240
+msgid "Author Bio"
+msgstr ""
+
+#: includes/customizer.php:260
+msgid "Facebook URL"
+msgstr ""
+
+#: includes/customizer.php:282
+msgid "Twitter URL"
+msgstr ""
+
+#: includes/customizer.php:303
+msgid "Instagram URL"
+msgstr ""
+
+#: includes/customizer.php:324
+msgid "Linkedin URL"
+msgstr ""
+
+#: includes/customizer.php:345
+msgid "Github URL"
+msgstr ""
+
+#: includes/customizer.php:366
+msgid "Codepen URL"
+msgstr ""
+
+#: includes/customizer.php:387
+msgid "RSS URL"
+msgstr ""
+
+#: includes/customizer.php:397
+msgid "Color & Background"
+msgstr ""
+
+#: includes/customizer.php:424
+msgid "Global Color"
+msgstr ""
+
+#: includes/getting-started.php:35
+#, php-format
+msgid "Version %s"
+msgstr ""
+
+#: includes/getting-started.php:37
+#, php-format
+msgid ""
+"Thanks for downloading %s, we truly appreciate the support and the "
+"opportunity to share our work with you."
+msgstr ""
+
+#: includes/getting-started.php:45
+msgid "Getting Started"
+msgstr ""
+
+#: includes/getting-started.php:48
+msgid "Customize"
+msgstr ""
+
+#: includes/getting-started.php:49
+msgid ""
+"Start customizing the theme and personalize it with your own taste and style."
+msgstr ""
+
+#: includes/getting-started.php:51
+msgid "Visit Customizer"
+msgstr ""
+
+#: includes/getting-started.php:56
+msgid "Support"
+msgstr ""
+
+#: includes/getting-started.php:57
+msgid ""
+"Need more help? Keep in touch with us. Responses to your Concern will be "
+"around 24-48hrs max."
+msgstr ""
+
+#: includes/getting-started.php:59
+msgid "Get Support"
+msgstr ""
+
+#: includes/getting-started.php:65
+msgid "Documentation"
+msgstr ""
+
+#: includes/getting-started.php:66
+msgid ""
+"A complete guide that will help you learn more about Natura Theme and how to "
+"maximize its potential. "
+msgstr ""
+
+#: includes/getting-started.php:67
+msgid "View Documentation"
+msgstr ""
+
+#: includes/getting-started.php:72
+msgid "Get Natura"
+msgstr ""
+
+#: includes/getting-started.php:73
+msgid ""
+"A powerful Responsive WordPress Theme for serious bloggers. Learn more about "
+"the awesome features. Get your Natura Theme Now!"
+msgstr ""
+
+#: includes/getting-started.php:74
+msgid "Buy Now"
+msgstr ""
+
+#: includes/getting-started.php:79
+msgid "Recommended Hosting"
+msgstr ""
+
+#: includes/getting-started.php:80
+msgid ""
+"We recommend Bluehost for your website hosting. From $7.99 now at $3.95/"
+"month! Get your discount Now!"
+msgstr ""
+
+#: includes/getting-started.php:81
+msgid "Get Hosting"
+msgstr ""
+
+#: page.php:15 partials/content-single.php:59
+msgid "Pages:"
+msgstr ""
+
+#: page.php:20 partials/content-single.php:62
+msgid "Next page"
+msgstr ""
+
+#: page.php:21 partials/content-single.php:63
+msgid "Previous page"
+msgstr ""
+
+#: partials/content-link.php:13 partials/content-quote.php:13
+#: partials/content-single.php:15 partials/content.php:13
+msgid ", "
+msgstr ""
+
+#: partials/content-link.php:16 partials/content-quote.php:16
+#: partials/content-single.php:18 partials/content.php:16
+#, php-format
+msgid "%1$s"
+msgstr ""
+
+#: partials/content-none.php:10
+msgid "Nothing Found"
+msgstr ""
+
+#: partials/content-none.php:17
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: partials/content-none.php:21
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: partials/content-none.php:26
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: partials/content-single.php:35 partials/content.php:31
+#: partials/content.php:51
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: partials/content-single.php:75
+msgid "Next"
+msgstr ""
+
+#: partials/content-single.php:76
+msgid "Next post:"
+msgstr ""
+
+#: partials/content-single.php:78
+msgid "Previous"
+msgstr ""
+
+#: partials/content-single.php:79
+msgid "Previous post:"
+msgstr ""
+
+#: partials/content.php:51
+msgid "Read more"
+msgstr ""
+
+#: partials/nav-main.php:13
+msgid "Add a menu"
+msgstr ""
+
+#: search.php:10
+msgid "Search results for: "
+msgstr ""
+
+#: searchform.php:9
+msgid "Search this site:"
+msgstr ""
+
+#: searchform.php:10
+msgid "Type your keyword and enter"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Alba"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://wpvita.com/wordpress/themes/alba/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "A simple blog theme with post formats and no sidebar"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "WPvita"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://wpvita.com/"
+msgstr ""
